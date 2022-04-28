@@ -5,7 +5,19 @@
 
 
 
-
+  body::-webkit-scrollbar {
+        width: 12px;               /* largura da scrollbar*/
+  }
+  
+  body::-webkit-scrollbar-track {
+        background-color: azure;   /* cor do bg da scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+        background-color: #444;    /* color of the scroll thumb */
+        border-radius: 12px;  /* roundness of the scroll thumb */ 
+        padding: 3px; /* creates padding around scroll thumb */
+  }
 
 :root {
     --font1: 'Black Ops One', cursive;
