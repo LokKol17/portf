@@ -1,4 +1,17 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
 
+
+
+
+
+:root {
+    --font1: 'Black Ops One', cursive;
+    --font2: 'Cormorant SC', serif;
+    --font3: 'Uncial Antiqua', cursive;
+}
 body {
     background-color: #fefefe;
     font-weight: 400;
