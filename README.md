@@ -2,4 +2,4 @@
 Um website de exemplo
 
 Aoba!
-<a href="goto.html">here</a> 
+<a href="home/index.html">here</a> 
