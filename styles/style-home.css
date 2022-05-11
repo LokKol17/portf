@@ -30,6 +30,7 @@ header {
     height: 370px;
 }
 main > h1 {
+    padding: 20px 0;
     font-family: var(--font3);
     font-size: 3.5em;
     text-align: center;
@@ -155,7 +156,56 @@ main > h1 {
     margin: 5px 0 0 0;
 }
 .planos {
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-color: #fefefe;
+    background-image: url("../imgs/bg-plano.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.planos > h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.cards-planos{
+    text-align: center;
+}
+.itens-planos {
+    border-radius: 10px;
+    vertical-align: top;
+    margin: 30px 20px;
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+}
+.itens-planos > h2 {
+    font-size: 3em;
+    margin-top: 5px;
+}
+.itens-planos > span {
+    font-size: 3em;
+}
+
+.itens-planos > span > p {
+    padding: 30px 0;
+}
+.itens-planos > ul {
+    margin-left: 46px;
+    text-align: left;
+    list-style: inside;
+    font-size: 1.2em
+}
+.itens-planos > ul > li {
+    margin: 5px 0
+}
+#planox {
+    background-color: skyblue;
+}
+#planoxx {
+    background-color: red;
+}
+#planoxxx {
+    background-color: rebeccapurple;
 }
